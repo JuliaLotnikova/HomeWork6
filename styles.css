@@ -1,0 +1,22 @@
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background-color: lightgray;
+    overflow: hidden;
+  }
+  
+  .progress-bar-fill {
+    height: 100%;
+    background-color: blue;
+    animation: fillAnimation 8s infinite;
+  }
+  
+  @keyframes fillAnimation {
+    0% {
+      width: 0%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
